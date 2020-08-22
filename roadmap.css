@@ -1,0 +1,156 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div,p,form,input,button,span,a,ul,li{
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-family: 'Avenir', sans-serif;
+	font-weight: 800;
+}
+
+.roadmap{
+	background-color: #2F295A;
+	font-family: 'Avenir', sans-serif;
+	font-size: 14px;
+	width: 1071px;
+	padding: 40px 67px 114px;
+}
+
+h2{
+	color: #FFF;
+	font-size: 28px;
+}
+
+.roadmap .roadmap-line{
+	margin-top: 55px;
+}
+
+.roadmap-line .items{
+	display: flex;
+	justify-content: space-between;
+}
+
+.roadmap-line .items.top-items{
+	margin-bottom: -21px;
+	padding-right: 164px;
+}
+
+.roadmap-line .items.bottom-items{
+	margin-top: -21px;
+	padding-left: 228px;
+	padding-right: 51px;
+}
+
+.roadmap .oval{
+	width: 7px;
+	height: 7px;
+	background: #443E6A;
+	border-radius: 50%;
+	margin-left: 8px;
+}
+
+.roadmap hr.marker-line{
+	transform: rotate(0deg);
+	border: none;
+	width: 1px;
+	height: 69px;
+	background-color: #FFF;
+	opacity: 0.1;
+	margin: 0 11px;
+}
+
+.marker{
+	background: url("roadmap-img/roadmap-marker.svg") no-repeat;
+}
+
+.marker-up{
+	background-position: left top;
+	padding-top: 22px;
+}
+
+.marker-down{
+	background-position: left bottom;
+	padding-bottom: 22px;
+	margin-top: 30px;
+}
+
+.roadmap-item-text{
+	font-size: 14px;
+	width: 165px;
+	color: rgba(255, 255, 255, 0.803753);
+	margin-left: 15px;
+}
+
+p.description{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.roadmap-item{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 25px;
+}
+
+.roadmap-item.item-2 .roadmap-item-text{
+	width: 215px;
+}
+
+.roadmap-item.item-4 .roadmap-item-text, .roadmap-item.item-5 .roadmap-item-text{
+	width: 230px;
+}
+
+.roadmap-item.item-6 .roadmap-item-text{
+	width: 153px;
+}
+
+.roadmap-item.item-up .roadmap-item-text{
+	margin-top: 67px;
+}
+
+hr.event-line{
+	background-color: #000;
+	opacity: 0.18;
+	height: 6px;
+	border: none;
+}
+
+.roadmap-item.item-3{
+	margin-left: 157px;
+}
+
+.roadmap-item.item-4{
+	margin-left: -18px;
+}
+
+.roadmap-item.item-5{
+	margin-left: -50px;
+}
+
+.paging{
+	width: 171px;
+	float: left;
+	margin: 38px 0;
+}
+
+.arrow{
+	width: 14px;
+    height: 14px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    display: inline-block;
+}
+
+.arrow-left{
+	transform: rotate(-135deg);
+	opacity: 0.1;
+}
+
+.arrow-right{
+	transform: rotate(45deg);
+	opacity: 0.4;
+}
